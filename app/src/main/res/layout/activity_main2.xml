@@ -90,10 +90,33 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password_input_layout"
+        android:id="@+id/region_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/phone_input_layout"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Region"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/baseline_phone_24"
+            android:drawablePadding="8dp"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/region_layout"
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         app:endIconMode="password_toggle">
@@ -119,7 +142,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/password_input_layout"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="Sign Up"
         android:textColor="@color/black"
         android:backgroundTint="#96FC04"
@@ -133,7 +156,7 @@
         android:layout_below = "@id/signup_button"
         android:textColor="@color/white"
         android:text="alraady have an account ?"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_centerHorizontal="true"/>
 
     <Button
@@ -142,7 +165,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/info"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="Login"
         android:textColor="@color/black"
         android:backgroundTint="#96FC04"
