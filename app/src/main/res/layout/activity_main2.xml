@@ -104,9 +104,9 @@
             android:hint="Region"
             android:textColorHint="@color/white"
             android:textColor="@color/black"
-            android:drawableStart="@drawable/baseline_phone_24"
+            android:drawableStart="@drawable/baseline_place_24"
             android:drawablePadding="8dp"
-            android:inputType="phone"
+            android:inputType="text"
             android:maxLines="1"
             android:paddingStart="8dp"
             android:paddingEnd="8dp" />

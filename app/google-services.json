@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "628761872833",
+    "project_id": "finallabproject-30618",
+    "storage_bucket": "finallabproject-30618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628761872833:android:a47995debabdb37b118740",
+        "android_client_info": {
+          "package_name": "com.example.signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628761872833-pldrsa74l5fke1qh2v3mt7osmltjgour.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.signup",
+            "certificate_hash": "427afcfb14e20e371680a0bfbb8f41ae08761670"
+          }
+        },
+        {
+          "client_id": "628761872833-tofc6g3o1k1t4pn9ptobpo3boem6g97e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7PJi5gakKHaW57V21hVdWs6O8gXC-fDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628761872833-tofc6g3o1k1t4pn9ptobpo3boem6g97e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

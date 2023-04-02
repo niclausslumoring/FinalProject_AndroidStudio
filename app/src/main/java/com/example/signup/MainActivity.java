@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     Boolean insert = DB.insertData(username_new, email_new, region_new, phone_number_new, password_new);
                     if (insert == true) {
                         System.out.println("New user registered with username: " + username_new);
-                        startActivity(new Intent(getApplicationContext(), Login.class));
+                        startActivity(new Intent(getApplicationContext(), SendOTPActivity.class));
                     } else {
                         System.out.println("Registration Failed");
                     }
