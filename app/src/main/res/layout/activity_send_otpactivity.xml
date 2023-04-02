@@ -25,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OTP Verification"
+            android:layout_marginTop="30dp"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -43,7 +44,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enter_mobile_phone"
+            android:text="Enter Mobile Phone"
             android:textColor="@color/black"
             android:textSize="14sp"
             android:layout_marginTop="50dp"
@@ -59,15 +60,47 @@
             android:gravity="center"
             android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="+62"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/TextPrimary"/>
             <EditText
                 android:id="@+id/inputMobile"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:background="@null"
-                android:hint="1234567890"
-                android:imeOptions="actionDone"/>
+                android:hint=" 1234567890"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:textColor="@color/TextPrimary"/>
         </LinearLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="70dp"
+            android:background="@color/blue"/>
 
+        <Button
+            android:id="@+id/buttonGetOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/background_button"
+            android:text="Get OTP"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+            
 
     </LinearLayout>
 </ScrollView>

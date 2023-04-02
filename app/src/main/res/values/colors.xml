@@ -11,6 +11,9 @@
     <color name="red">#F44336</color>
     <color name="darkred">#b23b3b</color>
     <color name="lightblack">#323232</color>
+    <color name="TextPrimary">#212121</color>
+    <color name="TextSecondary">#757575</color>
+
 
 
 
